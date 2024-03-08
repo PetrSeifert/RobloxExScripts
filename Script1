@@ -4,4 +4,5 @@ local Params = {
 	SSI = "saveinstance",
 }
 local synsaveinstance = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
+saveinstance()
 print('Finish execute')
